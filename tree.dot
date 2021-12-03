@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="X[0] <= -0.508\nsquared_error = 0.134\nsamples = 611309\nvalue = 0.841", fillcolor="#e99558"] ;
+1 [label="squared_error = 0.0\nsamples = 97188\nvalue = 0.0", fillcolor="#ffffff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="squared_error = 0.0\nsamples = 514121\nvalue = 1.0", fillcolor="#e58139"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

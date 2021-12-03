@@ -1,0 +1,1 @@
+frame.time_epoch,frame.len,eth.src,eth.dst,ip.src,ip.dst,tcp.srcport,tcp.dstport,udp.srcport,udp.dstport,icmp.type,icmp.code,arp.opcode,arp.src.hw_mac,arp.src.proto_ipv4,arp.dst.hw_mac,arp.dst.proto_ipv4,ipv6.src,ipv6.dst

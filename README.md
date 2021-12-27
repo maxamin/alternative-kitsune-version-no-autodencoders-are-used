@@ -22,6 +22,8 @@ The architecture of Kitsune is illustrated in the figure below:
 - It is based on an unsupervised machine learning algorithm (it does not need label, just train it on normal data!)
 - Its efficiency can be scaled with its input parameter m: the maximal size of any autoencoder in the ensemble layer (smaller autoencoders are exponentially cheaper to train and execute)
 
+## Modifications
+The Original script was modified To output CSV's instead of TSV's
 ## Requirements
 
 Kitsune uses a number of open source libraries to work properly:
@@ -68,8 +70,3 @@ Characteristics of the kitsune dataset
 <img src="https://github.com/maxamin/alternative-kitsune-version-no-autodencoders-are-used/blob/f107e4036432e45f7cf28347a5d693657de30676/Screenshots/mp1.png"/>
 <img src="https://github.com/maxamin/alternative-kitsune-version-no-autodencoders-are-used/blob/f107e4036432e45f7cf28347a5d693657de30676/Screenshots/mp2.png"/>
 <img src="https://github.com/maxamin/alternative-kitsune-version-no-autodencoders-are-used/blob/f107e4036432e45f7cf28347a5d693657de30676/Screenshots/mp3.png"/>
-## License
-
-MIT
-
-**Free Software, Hell Yeah!**
